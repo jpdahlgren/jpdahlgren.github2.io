@@ -1,0 +1,23 @@
+{
+  "projectServerModel": "PHP",
+  "projectName": "wwwidgets",
+  "targets": [
+    {
+      "access": "local",
+      "name": "wwwidgets_db",
+      "localFolder": "file:///C:/xampp/htdocs/WWWidgets",
+      "remoteURL": "http://localhost/WWWidgets"
+    },
+    {
+      "access": "ftps",
+      "name": "Azure Web App",
+      "remoteURL": "http://wwwidgets-employee.azurewebsites.net",
+      "ftpServer": "waws-prod-dm1-131.ftp.azurewebsites.windows.net/site/wwwroot",
+      "ftpUser": "wwwidgets-employee\\$wwwidgets-employee",
+      "ftpPassword": "20e1ebe9c8b28ff8358a207737df6b759180df9356965dd30bd10350d473926c992b4f868bd492e8fb5e1e8cda86a2506ec0034064050ffa65a88efe",
+      "nopassive": true
+    }
+  ],
+  "projectLinksType": "site",
+  "activeTarget": "Azure Web App"
+}
